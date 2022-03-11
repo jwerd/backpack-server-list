@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Game extends Model
 {
+    use \Backpack\CRUD\app\Models\Traits\CrudTrait;
     use HasFactory;
     
     public function server() {

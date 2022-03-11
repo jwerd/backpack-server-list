@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Server extends Model
 {
+    use \Backpack\CRUD\app\Models\Traits\CrudTrait;
     use HasFactory;
     use \Spatie\Tags\HasTags;
 
